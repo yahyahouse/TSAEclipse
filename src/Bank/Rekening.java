@@ -27,7 +27,7 @@ public class Rekening {
                 rekening.tarikTunai(jumlahT);
                 break;
             case "0":
-
+                System.exit(0);
             default:
                 System.out.println("Masukan Pilihan yang benar");
                 menu();
